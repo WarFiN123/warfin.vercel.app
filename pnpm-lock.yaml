@@ -80,10 +80,10 @@ importers:
         version: 1.4.1
       '@tailwindcss/line-clamp':
         specifier: ^0.4.4
-        version: 0.4.4(tailwindcss@3.3.3)
+        version: 0.4.4(tailwindcss@3.4.6)
       '@tailwindcss/typography':
         specifier: ^0.5.10
-        version: 0.5.10(tailwindcss@3.3.3)
+        version: 0.5.10(tailwindcss@3.4.6)
       '@types/node':
         specifier: ^20.8.4
         version: 20.8.4
@@ -106,11 +106,11 @@ importers:
         specifier: ^12.1.3
         version: 12.1.3
       tailwindcss:
-        specifier: ^3.3.3
-        version: 3.3.3
+        specifier: ^3.4.6
+        version: 3.4.6
       tailwindcss-debug-screens:
         specifier: ^2.2.1
-        version: 2.2.1(tailwindcss@3.3.3)
+        version: 2.2.1(tailwindcss@3.4.6)
 
 packages:
 
@@ -1175,8 +1175,8 @@ packages:
   is-reference@3.0.2:
     resolution: {integrity: sha512-v3rht/LgVcsdZa3O2Nqs+NMowLOxeOm7Ay9+/ARQ2F+qEoANRcqrjAZKGN0v8ymUetZGgkp26LTnGT7H0Qo9Pg==}
 
-  jiti@1.20.0:
-    resolution: {integrity: sha512-3TV69ZbrvV6U5DfQimop50jE9Dl6J8O1ja1dvBbMba/sZ3YBEQqJ2VZRoQPVnhlzjNtU1vaXRZVrVjU4qtm8yA==}
+  jiti@1.21.6:
+    resolution: {integrity: sha512-2yTgeWTWzMWkHu6Jp9NKgePDaYHbntiwvYuuJLbbN9vl7DC9DvXKOB2BC3ZZ92D3cvV/aflH0osDfwpHepQ53w==}
     hasBin: true
 
   js-tokens@4.0.0:
@@ -1805,8 +1805,8 @@ packages:
     peerDependencies:
       tailwindcss: ^1.0 || ^2.0 || ^3.0.0-alpha.1 || ^3.0
 
-  tailwindcss@3.3.3:
-    resolution: {integrity: sha512-A0KgSkef7eE4Mf+nKJ83i75TMyq8HqY3qmFIJSWy8bNt0v1lG7jUcpGpoTFxAwYcWOphcTBLPPJg+bDfhDf52w==}
+  tailwindcss@3.4.6:
+    resolution: {integrity: sha512-1uRHzPB+Vzu57ocybfZ4jh5Q3SdlH7XW23J5sQoM9LhE9eIOlzxer/3XPSsycvih3rboRsvt0QCmzSrqyOYUIA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -2459,17 +2459,17 @@ snapshots:
     dependencies:
       tslib: 2.6.2
 
-  '@tailwindcss/line-clamp@0.4.4(tailwindcss@3.3.3)':
+  '@tailwindcss/line-clamp@0.4.4(tailwindcss@3.4.6)':
     dependencies:
-      tailwindcss: 3.3.3
+      tailwindcss: 3.4.6
 
-  '@tailwindcss/typography@0.5.10(tailwindcss@3.3.3)':
+  '@tailwindcss/typography@0.5.10(tailwindcss@3.4.6)':
     dependencies:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.3.3
+      tailwindcss: 3.4.6
 
   '@types/acorn@4.0.6':
     dependencies:
@@ -3039,7 +3039,7 @@ snapshots:
     dependencies:
       '@types/estree': 1.0.2
 
-  jiti@1.20.0: {}
+  jiti@1.21.6: {}
 
   js-tokens@4.0.0: {}
 
@@ -3964,11 +3964,11 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  tailwindcss-debug-screens@2.2.1(tailwindcss@3.3.3):
+  tailwindcss-debug-screens@2.2.1(tailwindcss@3.4.6):
     dependencies:
-      tailwindcss: 3.3.3
+      tailwindcss: 3.4.6
 
-  tailwindcss@3.3.3:
+  tailwindcss@3.4.6:
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
@@ -3978,12 +3978,12 @@ snapshots:
       fast-glob: 3.3.1
       glob-parent: 6.0.2
       is-glob: 4.0.3
-      jiti: 1.20.0
+      jiti: 1.21.6
       lilconfig: 2.1.0
       micromatch: 4.0.5
       normalize-path: 3.0.0
       object-hash: 3.0.0
-      picocolors: 1.0.0
+      picocolors: 1.0.1
       postcss: 8.4.40
       postcss-import: 15.1.0(postcss@8.4.40)
       postcss-js: 4.0.1(postcss@8.4.40)
