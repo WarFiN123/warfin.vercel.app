@@ -2,23 +2,23 @@ import "../global.css";
 import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
 import { Metadata } from "next";
-import { Analytics } from "./components/analytics";
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "warfin.vercel.app",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Small developer from India",
   openGraph: {
-    title: "chronark.com",
+    title: "warfin.vercel.app",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "Small developer from India",
+    url: "https://warfin.vercel.app",
+    siteName: "warfin.vercel.app",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://i.postimg.cc/3JDKqNW1/og.png",
         width: 1920,
         height: 1080,
       },
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "WarFiN",
     card: "summary_large_image",
   },
   icons: {
