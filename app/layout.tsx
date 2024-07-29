@@ -8,6 +8,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 export const metadata: Metadata = {
   title: {
     default: "warfin.vercel.app",
+    template: "%s | chronark.com",
   },
   description: "Small developer from India",
   openGraph: {
