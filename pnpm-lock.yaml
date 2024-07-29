@@ -85,8 +85,8 @@ importers:
         specifier: ^0.5.10
         version: 0.5.10(tailwindcss@3.3.3)
       '@types/node':
-        specifier: ^20.8.4
-        version: 20.8.4
+        specifier: ^20.14.9
+        version: 20.14.9
       '@types/react':
         specifier: ^18.3.3
         version: 18.3.3
@@ -650,8 +650,8 @@ packages:
   '@types/ms@0.7.32':
     resolution: {integrity: sha512-xPSg0jm4mqgEkNhowKgZFBNtwoEwF6gJ4Dhww+GFpm3IgtNseHQZ5IqdNwnquZEoANxyDAKDRAdVo4Z72VvD/g==}
 
-  '@types/node@20.8.4':
-    resolution: {integrity: sha512-ZVPnqU58giiCjSxjVUESDtdPk4QR5WQhhINbc9UBrKLU68MX5BF6kbQzTrkwbolyr0X8ChBpXfavr5mZFKZQ5A==}
+  '@types/node@20.14.9':
+    resolution: {integrity: sha512-06OCtnTXtWOZBJlRApleWndH4JsRVs1pDCc8dLSQp+7PpUpX3ePdHyeNSFTeSe7FtKyQkrlPvHwJOW3SLd8Oyg==}
 
   '@types/parse5@6.0.3':
     resolution: {integrity: sha512-SuT16Q1K51EAVPz1K29DJ/sXjhSQ0zjvsypYJ6tlwVsRV9jwW5Adq2ch8Dq8kDBCkYnELS7N7VNCSB5nC56t/g==}
@@ -1855,8 +1855,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@5.25.3:
-    resolution: {integrity: sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==}
+  undici-types@5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
   unified@10.1.2:
     resolution: {integrity: sha512-pUSWAi/RAnVy1Pif2kAoeWNBa3JVrx0MId2LASj8G+7AiHWoKZNTomq6LG326T68U7/e263X6fTdcXIy7XnF7Q==}
@@ -2208,7 +2208,7 @@ snapshots:
   '@grpc/grpc-js@1.9.5':
     dependencies:
       '@grpc/proto-loader': 0.7.10
-      '@types/node': 20.8.4
+      '@types/node': 20.14.9
 
   '@grpc/proto-loader@0.7.10':
     dependencies:
@@ -2501,9 +2501,9 @@ snapshots:
 
   '@types/ms@0.7.32': {}
 
-  '@types/node@20.8.4':
+  '@types/node@20.14.9':
     dependencies:
-      undici-types: 5.25.3
+      undici-types: 5.26.5
 
   '@types/parse5@6.0.3': {}
 
@@ -3748,7 +3748,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 20.8.4
+      '@types/node': 20.14.9
       long: 5.2.3
 
   queue-microtask@1.2.3: {}
@@ -4027,7 +4027,7 @@ snapshots:
 
   typescript@5.2.2: {}
 
-  undici-types@5.25.3: {}
+  undici-types@5.26.5: {}
 
   unified@10.1.2:
     dependencies:
