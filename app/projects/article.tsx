@@ -3,6 +3,7 @@ import Link from "next/link";
 
 type Props = {
 	project: Project;
+	views: number;
 };
 
 export const Article: React.FC<Props> = ({ project }) => {
