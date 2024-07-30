@@ -19,10 +19,10 @@ importers:
     dependencies:
       '@next/font':
         specifier: ^14.2.5
-        version: 14.2.5(next@13.5.4(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
+        version: 14.2.5(next@13.5.4(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.3.1))(react@18.3.1))
       '@next/mdx':
-        specifier: ^13.5.6
-        version: 13.5.6
+        specifier: ^14.2.5
+        version: 14.2.5
       '@upstash/redis':
         specifier: ^1.33.0
         version: 1.33.0
@@ -384,8 +384,8 @@ packages:
     peerDependencies:
       next: '*'
 
-  '@next/mdx@13.5.6':
-    resolution: {integrity: sha512-2AMyCrz1SxSWNUpADyLz3RbPbq0GHrchbO7Msvg7IsH8MrTw3VYaZSI1KNa6JzZIoykwtNVSEL+uBmPZi106Jw==}
+  '@next/mdx@14.2.5':
+    resolution: {integrity: sha512-AROhSdXQg0/jt55iqxVSJqp9oaCyXwRe44/I17c77gDshZ6ex7VKBZDH0GljaxZ0Y4mScYUbFJJEh42Xw4X4Dg==}
     peerDependencies:
       '@mdx-js/loader': '>=0.15.0'
       '@mdx-js/react': '>=0.15.0'
@@ -2274,11 +2274,11 @@ snapshots:
 
   '@next/env@13.5.4': {}
 
-  '@next/font@14.2.5(next@13.5.4(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))':
+  '@next/font@14.2.5(next@13.5.4(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.3.1))(react@18.3.1))':
     dependencies:
-      next: 13.5.4(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      next: 13.5.4(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
 
-  '@next/mdx@13.5.6':
+  '@next/mdx@14.2.5':
     dependencies:
       source-map: 0.7.4
 
