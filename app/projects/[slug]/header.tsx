@@ -11,7 +11,7 @@ type Props = {
 		repository?: string;
 	};
 };
-export const Header: React.FC<Props> = ({ project, }) => {
+export const Header: React.FC<Props> = ({ project }) => {
 	const ref = useRef<HTMLElement>(null);
 	const [isIntersecting, setIntersecting] = useState(true);
 
