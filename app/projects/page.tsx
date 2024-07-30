@@ -8,10 +8,11 @@ import { Article } from "./article";
 export const revalidate = 60;
 export default async function ProjectsPage() {
 	const featured = allProjects.find(
-		(project) => project.slug === "chronark.com"
+
+		(project) => project.slug === "TranslucenceV2"
 	)!;
 	const top2 = allProjects.find(
-		(project) => project.slug === "unkey"
+		(project) => project.slug === "warfin.vercel.app"
 	)!;
 	const top3 = allProjects.find((project) => project.slug === "warfin123")!;
 	const sorted = allProjects
@@ -37,7 +38,7 @@ export default async function ProjectsPage() {
 						Projects
 					</h2>
 					<p className="mt-4 text-zinc-400">
-						Innovation in Progress: Stay Updated on Our Growing Portfolio!
+						Stay tuned for more projects!
 					</p>
 				</div>
 				<div className="w-full h-px bg-zinc-800" />
