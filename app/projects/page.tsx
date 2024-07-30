@@ -11,6 +11,7 @@ const redis = Redis.fromEnv();
 
 export const revalidate = 60;
 export default async function ProjectsPage() {
+<<<<<<< Updated upstream
   const views = (
     await redis.mget<number[]>(
       ...allProjects.map((p) => ["pageviews", "projects", p.slug].join(":")),
@@ -19,6 +20,28 @@ export default async function ProjectsPage() {
     acc[allProjects[i].slug] = v ?? 0;
     return acc;
   }, {} as Record<string, number>);
+=======
+	const featured = allProjects.find(
+		(project) => project.slug === "TranslucenceV2"
+	)!;
+	const top2 = allProjects.find(
+		(project) => project.slug === "chronark.com"
+	)!;
+	const top3 = allProjects.find((project) => project.slug === "warfin123")!;
+	const sorted = allProjects
+		.filter((p) => p.published)
+		.filter(
+			(project) =>
+				project.slug !== featured.slug &&
+				project.slug !== top2.slug &&
+				project.slug !== top3.slug
+		)
+		.sort(
+			(a, b) =>
+				new Date(b.date ?? Number.POSITIVE_INFINITY).getTime() -
+				new Date(a.date ?? Number.POSITIVE_INFINITY).getTime()
+		);
+>>>>>>> Stashed changes
 
   const featured = allProjects.find((project) => project.slug === "unkey")!;
   const top2 = allProjects.find((project) => project.slug === "chronark")!;
