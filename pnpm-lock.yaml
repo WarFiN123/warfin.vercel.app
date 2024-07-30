@@ -72,8 +72,8 @@ importers:
         specifier: 3.0.1
         version: 3.0.1
       typescript:
-        specifier: ^5.2.2
-        version: 5.2.2
+        specifier: ^5.5.4
+        version: 5.5.4
     devDependencies:
       '@opentelemetry/api':
         specifier: 1.4.1
@@ -1850,8 +1850,8 @@ packages:
     resolution: {integrity: sha512-tLq3bSNx+xSpwvAJnzrK0Ep5CLNWjvFTOp71URMaAEWBfRb9nnJiBoUe0tF8bI4ZFO3omgBR6NvnbzVUT3Ly4g==}
     engines: {node: '>=14.16'}
 
-  typescript@5.2.2:
-    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
+  typescript@5.5.4:
+    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -4025,7 +4025,7 @@ snapshots:
 
   type-fest@3.13.1: {}
 
-  typescript@5.2.2: {}
+  typescript@5.5.4: {}
 
   undici-types@5.25.3: {}
 
