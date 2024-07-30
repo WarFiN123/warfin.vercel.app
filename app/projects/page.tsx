@@ -12,7 +12,7 @@ export default async function ProjectsPage() {
 		(project) => project.slug === "TranslucenceV2"
 	)!;
 	const top2 = allProjects.find(
-		(project) => project.slug === "warfin.vercel.app"
+		(project) => project.slug === "warfin.vercel.app.mdx"
 	)!;
 	const top3 = allProjects.find((project) => project.slug === "warfin123")!;
 	const sorted = allProjects
