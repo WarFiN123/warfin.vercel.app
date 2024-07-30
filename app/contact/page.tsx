@@ -3,26 +3,26 @@ import { Github, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
-import { SiReact } from '@icons-pack/react-simple-icons';
+import { SiDiscord, SiGithub, SiKofi } from '@icons-pack/react-simple-icons';
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/warfin8",
-		label: "Twitter",
-		handle: "@warfin8",
+		icon: <SiKofi size={20} />,
+		href: "ko-fi.com/warfin",
+		label: "Ko-fi",
+		handle: "warfin",
 	},
 	{
-		icon: <Github size={20} />,
+		icon: <SiGithub size={20} />,
 		href: "https://github.com/warfin123",
 		label: "Github",
 		handle: "warfin123",
 	},
 	{
-		icon: <SiReact title='discord' size={20} />,
+		icon: <SiDiscord title='Discord' size={20} />,
 		href: "https://discord.gg/t6CKrYvQuE",
 		label: "Discord",
-		handle: "t6CKrYvQuE",
+		handle: "ogwarfin",
 	},
 ];
 
