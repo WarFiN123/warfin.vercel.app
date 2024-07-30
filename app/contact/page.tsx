@@ -1,21 +1,27 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/warfin8",
-		label: "Twitter",
-		handle: "@warfin8",
+		icon: <Linkedin size={20} />,
+		href: "https://www.linkedin.com/in/brandon-que-2037a521b/",
+		label: "Connect with me!",
+		handle: "LinkedIn Profile",
+	},
+	{
+		icon: <Mail size={20} />,
+		href: "mailto:brandon@aethernum.io",
+		label: "brandon@aethernum.io",
+		handle: "Email",
 	},
 	{
 		icon: <Github size={20} />,
-		href: "https://github.com/warfin123",
-		label: "Github",
-		handle: "warfin123",
+		href: "https://github.com/brandonsbque",
+		label: "brandonsbque",
+		handle: "GitHub Profile",
 	},
 ];
 

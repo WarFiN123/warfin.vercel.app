@@ -1,5 +1,5 @@
 "use client";
-import { ArrowLeft, Github, Twitter } from "lucide-react";
+import { ArrowLeft, Github } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 
@@ -9,6 +9,7 @@ type Props = {
 		title: string;
 		description: string;
 		repository?: string;
+		email?: string;
 	};
 };
 export const Header: React.FC<Props> = ({ project }) => {
@@ -24,14 +25,14 @@ export const Header: React.FC<Props> = ({ project }) => {
 	// }
 	if (project.url) {
 		links.push({
-			label: "GitHub",
-			href: `https://github.com/${project.repository}`,
+			label: "App Store",
+			href: project.url,
 		});
 	}
-	if (project.url) {
+	if (project.email) {
 		links.push({
-			label: "Website",
-			href: project.url,
+			label: "Email",
+			href: project.email,
 		});
 	}
 	useEffect(() => {
