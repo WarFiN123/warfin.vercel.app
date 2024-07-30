@@ -3,6 +3,7 @@ import { Github, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
+import { SiReact } from '@icons-pack/react-simple-icons';
 
 const socials = [
 	{
@@ -16,6 +17,12 @@ const socials = [
 		href: "https://github.com/warfin123",
 		label: "Github",
 		handle: "warfin123",
+	},
+	{
+		icon: <SiReact title='discord' size={20} />,
+		href: "https://discord.gg/t6CKrYvQuE",
+		label: "Discord",
+		handle: "t6CKrYvQuE",
 	},
 ];
 

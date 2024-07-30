@@ -2,6 +2,7 @@
 import { ArrowLeft, Github, Twitter } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
+import { SiReact } from '@icons-pack/react-simple-icons';
 
 type Props = {
 	project: {
