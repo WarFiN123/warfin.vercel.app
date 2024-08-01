@@ -1,6 +1,6 @@
 "use client";
 import { motion, useMotionTemplate, useSpring } from "framer-motion";
-
+import Particles from "../components/particles";
 import { PropsWithChildren } from "react";
 
 export const Card: React.FC<PropsWithChildren> = ({ children }) => {
@@ -31,7 +31,7 @@ export const Card: React.FC<PropsWithChildren> = ({ children }) => {
 					style={style}
 				/>
 			</div>
-
+			<Particles className="absolute inset-0 -z-10 animate-fade-in" quantity={100}/>
 			{children}
 		</div>
 	);

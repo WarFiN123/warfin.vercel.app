@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description:
       "Small developer from India",
     url: "https://warfin.vercel.app",
-    siteName: "warfin.vercel.app",
+    siteName: "WarFiN",
     images: [
       {
         url: "https://i.postimg.cc/3JDKqNW1/og.png",
