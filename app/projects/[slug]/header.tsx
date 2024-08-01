@@ -1,8 +1,8 @@
 "use client";
-import { ArrowLeft, Github, Twitter } from "lucide-react";
+import { ChevronLeft } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
-import { SiDiscord } from '@icons-pack/react-simple-icons';
+import { SiGithub } from '@icons-pack/react-simple-icons';
 
 type Props = {
 	project: {
@@ -60,7 +60,7 @@ export const Header: React.FC<Props> = ({ project }) => {
 				<div className="container flex flex-row-reverse items-center justify-between p-6 mx-auto">
 					<div className="flex justify-between gap-8">
 						<Link target="_blank" href="https://github.com/warfin123">
-							<Github
+							<SiGithub
 								className={`w-6 h-6 duration-200 hover:font-medium ${
 									isIntersecting
 										? " text-zinc-400 hover:text-zinc-100"
@@ -78,7 +78,7 @@ export const Header: React.FC<Props> = ({ project }) => {
 								: "text-zinc-600 hover:text-zinc-900"
 						} `}
 					>
-						<ArrowLeft className="w-6 h-6 " />
+						<ChevronLeft className="w-6 h-6 " />
 					</Link>
 				</div>
 			</div>
