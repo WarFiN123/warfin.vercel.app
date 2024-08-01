@@ -104,6 +104,9 @@ export const Header: React.FC<Props> = ({ project }) => {
 					</div>
 				</div>
 			</div>
+			<div className="mx-auto max-w-7xl px-6 lg:px-8 text-center flex flex-col items-center">
+    <iframe src="https://e.widgetbot.io/channels/1259437346944979027/1268177540824957000" allow="clipboard-write; fullscreen" height="600" width="900"></iframe>
+</div>
 		</header>
 	);
 };
