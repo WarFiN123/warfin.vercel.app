@@ -7,8 +7,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
   title: {
-    default: "warfin.vercel.app",
-    template: "%s | chronark.com",
+    default: "WarFiN",
+    template: "%s | warfin.vercel.app",
   },
   description: "Small developer from India",
   openGraph: {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description:
       "Small developer from India",
     url: "https://warfin.vercel.app",
-    siteName: "WarFiN",
+    siteName: "warfin.vercel.app",
     images: [
       {
         url: "https://i.postimg.cc/3JDKqNW1/og.png",
