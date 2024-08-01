@@ -1,9 +1,9 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 import { SiDiscord, SiGithub, SiKofi } from '@icons-pack/react-simple-icons';
+import Particles from "../components/particles";
 
 const socials = [
 	{
@@ -43,6 +43,7 @@ export default function Example() {
 									{s.icon}
 								</span>{" "}
 								<div className="z-10 flex flex-col items-center">
+									<Particles className="absolute inset-0 -z-10 animate-fade-in" quantity={100}/>
 									<span className="lg:text-xl font-medium duration-150 xl:text-3xl text-zinc-200 group-hover:text-white font-display">
 										{s.handle}
 									</span>
