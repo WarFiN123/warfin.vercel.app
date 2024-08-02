@@ -1,8 +1,11 @@
-            - name: Codespell with annotations
-  # You may pin to the exact commit or the version.
-  # uses: codespell-project/actions-codespell@94259cd8be02ad2903ba34a22d9c13de21a74461
-  uses: codespell-project/actions-codespell@v2.0
-  with:
-    # If set, check file names as well
-    check_filenames: true
-          
+name: codespell
+on: [push, pull_request]
+permissions: {}
+jobs:
+  codespell:
+    name: Check for spelling errors
+    runs-on: ubuntu-latest
+    steps:
+      - uses: codespell-project/actions-codespell@master
+        with:
+          check_filenames: true
