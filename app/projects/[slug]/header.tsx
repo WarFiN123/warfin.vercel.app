@@ -3,7 +3,7 @@ import { ChevronLeft } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import { SiGithub } from '@icons-pack/react-simple-icons';
-
+import  Particles  from "../../components/particles";
 type Props = {
 	project: {
 		url?: string;
@@ -84,6 +84,10 @@ export const Header: React.FC<Props> = ({ project }) => {
 			</div>
 			<div className="container mx-auto relative isolate overflow-hidden  py-24 sm:py-32">
 				<div className="mx-auto max-w-7xl px-6 lg:px-8 text-center flex flex-col items-center">
+					<Particles
+				className="absolute inset-0 -z-10 animate-fade-in"
+				quantity={100}
+			/>
 					<div className="mx-auto max-w-2xl lg:mx-0">
 						<h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl font-display">
 							{project.title}

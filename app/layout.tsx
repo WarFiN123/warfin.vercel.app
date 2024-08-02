@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "warfin.vercel.app",
     images: [
       {
-        url: "https://i.postimg.cc/3JDKqNW1/og.png",
+        url: "https://i.postimg.cc/Kvg9CjYK/og.png",
         width: 1920,
         height: 1080,
       },
