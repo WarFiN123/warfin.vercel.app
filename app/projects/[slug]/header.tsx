@@ -5,7 +5,7 @@ import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import { SiGithub } from '@icons-pack/react-simple-icons';
 import Particles from "../../components/particles";
-import WidgetBot from '@widgetbot/react-embed';
+import WidgetBot from '@widgetbot/html-embed';
 
 type Props = {
   project: {
@@ -201,4 +201,3 @@ export const Header: React.FC<Props> = ({ project }) => {
       </div>
 		</header>
 	);
-};
