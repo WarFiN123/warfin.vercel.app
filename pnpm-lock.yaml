@@ -32,6 +32,9 @@ importers:
       '@vercel/speed-insights':
         specifier: ^1.0.12
         version: 1.0.12(next@14.2.5(@opentelemetry/api@1.4.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
+      '@widgetbot/html-embed':
+        specifier: ^1.3.0
+        version: 1.3.0
       '@widgetbot/react-embed':
         specifier: ^1.9.0
         version: 1.9.0(react@18.3.1)
@@ -741,6 +744,9 @@ packages:
 
   '@widgetbot/embed-api@1.2.15':
     resolution: {integrity: sha512-Uj83i7LxP/fZrMQ3RodB6CNX2qFVHO9Ue2ElJU6IC10sjy4np5420qRcILGhSiWXzrhgagE2bR7AVh89NC0pRg==}
+
+  '@widgetbot/html-embed@1.3.0':
+    resolution: {integrity: sha512-I4miUlXqpIBJ4VHe4fb2KzIOoVTsye1wBSeFHq3JmDgcJrGshu5bTEN/YGwAJSPSd2YoCvYtWC9r5WsE+L8Q8g==}
 
   '@widgetbot/react-embed@1.9.0':
     resolution: {integrity: sha512-+Qgqy7lwLy++lIiHmSsgxUjwcX80iFIHR0QJpKq4W82ePUmq4bTuxvUbxcE+VQH5IjNrWaydGNR8zROV5vUQsA==}
@@ -2744,6 +2750,8 @@ snapshots:
   '@widgetbot/embed-api@1.2.15':
     dependencies:
       post-robot: 8.0.31
+
+  '@widgetbot/html-embed@1.3.0': {}
 
   '@widgetbot/react-embed@1.9.0(react@18.3.1)':
     dependencies:

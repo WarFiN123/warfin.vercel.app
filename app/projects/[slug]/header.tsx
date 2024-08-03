@@ -4,8 +4,10 @@ import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import { SiGithub } from '@icons-pack/react-simple-icons';
 import  Particles  from "../../components/particles";
-import WidgetBot from '@widgetbot/react-embed';
 import styles from "./Header.module.css";
+import dynamic from "next/dynamic";
+
+const WidgetBot = dynamic(() => import('@widgetbot/react-embed'), { ssr: false });
 type Props = {
 	project: {
 		url?: string;
