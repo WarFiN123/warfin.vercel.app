@@ -109,8 +109,17 @@ export const Header: React.FC<Props> = ({ project }) => {
 				</div>
 			</div>
 			<div className="mx-auto max-w-7xl px-6 lg:px-8 text-center flex flex-col items-center">
-    <iframe src="https://e.widgetbot.io/channels/1259437346944979027/1268177540824957000" allow="clipboard-write; fullscreen" height="600" width="900"></iframe>
-</div>
+      <div className="widget-container">
+          <WidgetBot
+            server="1259437346944979027"
+            channel="1268177540824957000"
+          />
+        </div>
+        <script
+          src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"
+          async
+        ></script>
+      </div>
 		</header>
 	);
 };
