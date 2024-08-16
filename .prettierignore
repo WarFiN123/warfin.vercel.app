@@ -1,0 +1,9 @@
+.vscode
+.next
+node_modules
+out
+.vercel
+.env
+public
+pnpm-lock.yaml
+package-lock.json
