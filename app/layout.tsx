@@ -2,8 +2,8 @@ import "../global.css";
 import { Inter } from "next/font/google";
 import LocalFont from "next/font/local";
 import { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: {
@@ -13,8 +13,7 @@ export const metadata: Metadata = {
   description: "Small developer from India",
   openGraph: {
     title: "warfin.vercel.app",
-    description:
-      "Small developer from India",
+    description: "Small developer from India",
     url: "https://warfin.vercel.app",
     siteName: "warfin.vercel.app",
     images: [
@@ -47,31 +46,31 @@ export const metadata: Metadata = {
   },
 };
 const inter = Inter({
-	subsets: ["latin"],
-	variable: "--font-inter",
+  subsets: ["latin"],
+  variable: "--font-inter",
 });
 
 const calSans = LocalFont({
-	src: "../public/fonts/CalSans-SemiBold.ttf",
-	variable: "--font-calsans",
+  src: "../public/fonts/CalSans-SemiBold.ttf",
+  variable: "--font-calsans",
 });
 
 export default function RootLayout({
-	children,
+  children,
 }: {
-	children: React.ReactNode;
+  children: React.ReactNode;
 }) {
-	return (
-		<html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
-			<body
-				className={`bg-black ${
-					process.env.NODE_ENV === "development" ? "debug-screens" : undefined
-				}`}
-			>
-				{children}
+  return (
+    <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
+      <body
+        className={`bg-black ${
+          process.env.NODE_ENV === "development" ? "debug-screens" : undefined
+        }`}
+      >
+        {children}
         <SpeedInsights />
         <Analytics />
-			</body>
-		</html>
-	);
+      </body>
+    </html>
+  );
 }
