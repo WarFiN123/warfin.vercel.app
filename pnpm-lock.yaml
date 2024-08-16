@@ -18,8 +18,8 @@ importers:
   .:
     dependencies:
       '@icons-pack/react-simple-icons':
-        specifier: ^9.6.0
-        version: 9.6.0(react@18.3.1)
+        specifier: ^9.7.0
+        version: 9.7.0(react@18.3.1)
       '@next/mdx':
         specifier: ^14.2.5
         version: 14.2.5
@@ -352,8 +352,8 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  '@icons-pack/react-simple-icons@9.6.0':
-    resolution: {integrity: sha512-8lDLssg+2aJutepQV/P4zlGm0fgujSeIItCYaLKo+25NtwepozWxZJOnc5WGHSi3HjiLcGmxI6dA2eiD5w3i+w==}
+  '@icons-pack/react-simple-icons@9.7.0':
+    resolution: {integrity: sha512-KvMwsHUD3mZSu5fCS7Jw3xH4mDqK94PcT39MoyBwtdbpyl5JEsB8kMZOInKsuzpIEb4XqSfsJ49K30j8s0uHpg==}
     peerDependencies:
       react: ^16.13 || ^17 || ^18
 
@@ -2389,7 +2389,7 @@ snapshots:
       protobufjs: 7.3.2
       yargs: 17.7.2
 
-  '@icons-pack/react-simple-icons@9.6.0(react@18.3.1)':
+  '@icons-pack/react-simple-icons@9.7.0(react@18.3.1)':
     dependencies:
       react: 18.3.1
 
