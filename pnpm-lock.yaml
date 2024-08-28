@@ -85,8 +85,8 @@ importers:
         specifier: ^0.5.14
         version: 0.5.14(tailwindcss@3.4.10)
       '@types/node':
-        specifier: ^22.5.0
-        version: 22.5.0
+        specifier: ^22.5.1
+        version: 22.5.1
       '@types/react':
         specifier: ^18.3.4
         version: 18.3.4
@@ -675,8 +675,8 @@ packages:
   '@types/ms@0.7.34':
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
 
-  '@types/node@22.5.0':
-    resolution: {integrity: sha512-DkFrJOe+rfdHTqqMg0bSNlGlQ85hSoh2TPzZyhHsXnMtligRWpxUySiyw8FY14ITt24HVCiQPWxS3KO/QlGmWg==}
+  '@types/node@22.5.1':
+    resolution: {integrity: sha512-KkHsxej0j9IW1KKOOAA/XBA0z08UFSrRQHErzEfA3Vgq57eXIMYboIlHJuYIfd+lwCQjtKqUu3UnmKbtUc9yRw==}
 
   '@types/parse5@6.0.3':
     resolution: {integrity: sha512-SuT16Q1K51EAVPz1K29DJ/sXjhSQ0zjvsypYJ6tlwVsRV9jwW5Adq2ch8Dq8kDBCkYnELS7N7VNCSB5nC56t/g==}
@@ -2385,7 +2385,7 @@ snapshots:
   '@grpc/grpc-js@1.9.5':
     dependencies:
       '@grpc/proto-loader': 0.7.10
-      '@types/node': 22.5.0
+      '@types/node': 22.5.1
 
   '@grpc/proto-loader@0.7.10':
     dependencies:
@@ -2699,7 +2699,7 @@ snapshots:
 
   '@types/ms@0.7.34': {}
 
-  '@types/node@22.5.0':
+  '@types/node@22.5.1':
     dependencies:
       undici-types: 6.19.6
 
@@ -4171,7 +4171,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 22.5.0
+      '@types/node': 22.5.1
       long: 5.2.3
 
   queue-microtask@1.2.3: {}
