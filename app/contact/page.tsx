@@ -8,7 +8,7 @@ import Particles from "../components/particles";
 const socials = [
   {
     icon: <SiKofi size={20} />,
-    href: "ko-fi.com/warfin",
+    href: "https://ko-fi.com/warfin",
     label: "Ko-fi",
     handle: "warfin",
   },
