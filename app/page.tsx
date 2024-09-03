@@ -16,7 +16,7 @@ export default function Home() {
             <Link
               key={item.href}
               href={item.href}
-              className="text-sm duration-500 text-zinc-500 hover:text-zinc-300 font-display"
+              className="text-sm duration-500 text-zinc-500 hover:text-zinc-300"
             >
               {item.name}
             </Link>
@@ -39,7 +39,7 @@ export default function Home() {
           <Link
             target="_blank"
             href="https://github.com/warfin123"
-            className="underline duration-500 hover:text-zinc-300 font-display"
+            className="underline duration-500 hover:text-zinc-300"
           >
             developer
           </Link>{" "}
