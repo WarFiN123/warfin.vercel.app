@@ -10,10 +10,10 @@ export default async function ProjectsPage() {
   const featured = allProjects.find(
     (project) => project.slug === "TranslucenceV2",
   )!;
-  const top2 = allProjects.find(
-    (project) => project.slug === "Bugatti_PvP",
+  const top2 = allProjects.find((project) => project.slug === "Bugatti_PvP")!;
+  const top3 = allProjects.find(
+    (project) => project.slug === "warfin.vercel.app",
   )!;
-  const top3 = allProjects.find((project) => project.slug === "warfin.vercel.app")!;
   const sorted = allProjects
     .filter((p) => p.published)
     .filter(
