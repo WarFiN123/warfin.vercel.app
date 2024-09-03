@@ -39,7 +39,7 @@
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.41",
+    "postcss": "^8.4.44",
     "postcss-nesting": "^13.0.0",
     "prettier": "3.3.3",
     "rome": "^12.1.3",
