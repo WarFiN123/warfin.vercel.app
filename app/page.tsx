@@ -3,6 +3,7 @@ import React from "react";
 import Particles from "./components/particles";
 
 const navigation = [
+  { name: "GitHub", href: "https://github.com/warfin123" },
   { name: "Projects", href: "/projects" },
   { name: "Contact", href: "/contact" },
 ];
@@ -16,7 +17,7 @@ export default function Home() {
             <Link
               key={item.href}
               href={item.href}
-              className="text-sm duration-500 text-zinc-500 hover:text-zinc-300"
+              className="text-sm duration-500 text-zinc-500 hover:text-zinc-300 font-display"
             >
               {item.name}
             </Link>
@@ -34,7 +35,7 @@ export default function Home() {
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
-        <h2 className="text-sm text-zinc-500 ">
+        <h2 className="text-sm text-zinc-500 font-display">
           I'm a small{" "}
           <Link
             target="_blank"

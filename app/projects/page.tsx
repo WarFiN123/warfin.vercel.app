@@ -12,7 +12,7 @@ export default async function ProjectsPage() {
   )!;
   const top2 = allProjects.find((project) => project.slug === "Bugatti_PvP")!;
   const top3 = allProjects.find(
-    (project) => project.slug === "warfin.vercel.app",
+    (project) => project.slug === "warfin.us.kg",
   )!;
   const sorted = allProjects
     .filter((p) => p.published)

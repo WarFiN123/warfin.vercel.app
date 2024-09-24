@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
-import { SiDiscord, SiGithub, SiKofi } from "@icons-pack/react-simple-icons";
+import { SiDiscord, SiGithub, SiKofi, SiGmail } from "@icons-pack/react-simple-icons";
 import Particles from "../components/particles";
 
 const socials = [
@@ -13,17 +13,17 @@ const socials = [
     handle: "warfin",
   },
   {
-    icon: <SiGithub size={20} />,
-    href: "https://github.com/warfin123",
-    label: "Github",
-    handle: "warfin123",
-  },
-  {
     icon: <SiDiscord title="Discord" size={20} />,
     href: "https://discord.gg/t6CKrYvQuE",
     label: "Discord",
     handle: "ogwarfin",
   },
+  {
+    icon: <SiGmail size={20} />,
+    href: "mailto:mail@warfin.us.kg",
+    label: "Email",
+    handle: "mail@warfin.us.kg",
+  }
 ];
 
 export default function Example() {
@@ -52,10 +52,10 @@ export default function Example() {
                     quantity={200}
                   />
                   <span className="lg:text-xl font-medium duration-150 xl:text-3xl text-zinc-200 group-hover:text-white">
-                    {s.handle}
+                    {s.label}
                   </span>
                   <span className="mt-4 text-sm text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
-                    {s.label}
+                    {s.href}
                   </span>
                 </div>
               </Link>
