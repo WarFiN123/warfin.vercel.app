@@ -8,9 +8,9 @@ import { Article } from "./article";
 export const revalidate = 60;
 export default async function ProjectsPage() {
   const featured = allProjects.find(
-    (project) => project.slug === "TranslucenceV2",
+    (project) => project.slug === "Bugatti_PvP",
   )!;
-  const top2 = allProjects.find((project) => project.slug === "Bugatti_PvP")!;
+  const top2 = allProjects.find((project) => project.slug === "TranslucenceV2")!;
   const top3 = allProjects.find(
     (project) => project.slug === "warfin.us.kg",
   )!;
