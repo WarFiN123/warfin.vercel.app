@@ -30,7 +30,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ["var(--font-inter)", ...defaultTheme.fontFamily.sans],
-        display: ["var(--font-cfour)"],
+        display: ["var(--font-brunoAce)"],
       },
       backgroundImage: {
         "gradient-radial":

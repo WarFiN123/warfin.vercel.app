@@ -50,9 +50,9 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-const Cfour = LocalFont({
-  src: "../public/fonts/Cfour.otf",
-  variable: "--font-cfour",
+const BrunoAce = LocalFont({
+  src: "../public/fonts/BrunoAce.ttf",
+  variable: "--font-brunoAce",
 });
 
 export default function RootLayout({
@@ -61,7 +61,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={[inter.variable, Cfour.variable].join(" ")}>
+    <html lang="en" className={[inter.variable, BrunoAce.variable].join(" ")}>
       <body
         className={`bg-black ${
           process.env.NODE_ENV === "development" ? "debug-screens" : undefined
