@@ -10,10 +10,10 @@ export default async function ProjectsPage() {
   const featured = allProjects.find(
     (project) => project.slug === "Bugatti_PvP",
   )!;
-  const top2 = allProjects.find((project) => project.slug === "TranslucenceV2")!;
-  const top3 = allProjects.find(
-    (project) => project.slug === "warfin.us.kg",
+  const top2 = allProjects.find(
+    (project) => project.slug === "TranslucenceV2",
   )!;
+  const top3 = allProjects.find((project) => project.slug === "warfin.us.kg")!;
   const sorted = allProjects
     .filter((p) => p.published)
     .filter(
@@ -36,7 +36,9 @@ export default async function ProjectsPage() {
           <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl font-display">
             Projects
           </h2>
-          <p className="mt-4 text-zinc-400 font-display">Stay tuned for more projects!</p>
+          <p className="mt-4 text-zinc-400 font-display">
+            Stay tuned for more projects!
+          </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />
 
