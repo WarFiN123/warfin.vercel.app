@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   description: "Small developer from India",
   openGraph: {
-    title: "warfin.vercel.app",
+    title: "WarFiN",
     description: "Small developer from India",
     url: "https://warfin.vercel.app",
     siteName: "warfin.vercel.app",
