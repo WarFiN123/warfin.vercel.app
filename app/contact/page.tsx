@@ -2,7 +2,12 @@
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
-import { SiDiscord, SiGithub, SiKofi, SiGmail } from "@icons-pack/react-simple-icons";
+import {
+  SiDiscord,
+  SiGithub,
+  SiKofi,
+  SiGmail,
+} from "@icons-pack/react-simple-icons";
 import Particles from "../components/particles";
 
 const socials = [
@@ -23,7 +28,7 @@ const socials = [
     href: "mailto:mail@warfin.us.kg",
     label: "Email",
     handle: "mail@warfin.us.kg",
-  }
+  },
 ];
 
 export default function Example() {
