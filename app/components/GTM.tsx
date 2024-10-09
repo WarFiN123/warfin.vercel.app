@@ -5,7 +5,13 @@ import TagManager from "react-gtm-module";
 
 export default function GTM() {
   useEffect(() => {
-    TagManager.initialize({ gtmId: process.env.NEXT_PUBLIC_GTM_ID });
+    const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
+
+    if (gtmId) {
+      TagManager.initialize({ gtmId }); // Initialize only if gtmId is defined
+    } else {
+      console.warn("GTM ID is not defined");
+    }
   }, []);
 
   return null; // No UI component needed, just initialization
