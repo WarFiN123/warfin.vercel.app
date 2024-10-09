@@ -1,9 +1,9 @@
-import MicrosoftClarity from "./MicrosoftClarity"
+import MicrosoftClarity from "./MicrosoftClarity";
 
 const Metrics = () => (
-    <>
-        <MicrosoftClarity />
-    </>
-)
+  <>
+    <MicrosoftClarity />
+  </>
+);
 
-export default Metrics
+export default Metrics;
