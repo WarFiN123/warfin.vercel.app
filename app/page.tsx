@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Script from "next/script";
 import Particles from "./components/particles";
 
 const navigation = [
@@ -10,6 +11,21 @@ const navigation = [
 
 export default function Home() {
   return (
+    <>
+      {/* Microsoft Clarity Script */}
+      <Script
+        id="clarity-script"
+        strategy="afterInteractive" // Ensures the script runs after the page becomes interactive
+        dangerouslySetInnerHTML={{
+          __html: `
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "ofux61lvfu");
+          `,
+        }}
+      />
     <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
       <nav className="my-16 animate-fade-in">
         <ul className="flex items-center justify-center gap-4">
@@ -48,5 +64,6 @@ export default function Home() {
         </h2>
       </div>
     </div>
+    </>
   );
 }
